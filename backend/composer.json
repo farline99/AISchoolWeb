@@ -1,0 +1,15 @@
+{
+  "name": "aischool/backend",
+  "description": "AI School Backend API",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}

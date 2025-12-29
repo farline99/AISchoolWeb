@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+#root {
+  height: 100%;
+}
+
+.user-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.user-dropdown-trigger:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.ant-pagination.ant-pagination-simple .ant-pagination-simple-pager input {
+  font-family: inherit;
+  font-weight: 500;
+}
+.ant-pagination.ant-pagination-simple .ant-pagination-simple-pager .ant-slash {
+  font-family: inherit;
+}
